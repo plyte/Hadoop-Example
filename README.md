@@ -47,3 +47,10 @@ bin/hdfs dfs -cat output/*
 ## Example code <a name="example_code"></a>
 The code for the wordcount should be found [here](https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html#Example:_WordCount_v1.0).
 
+## Remove file
+If you would like to run it again you will get an error stating that there is a file that already exists in the output directory. Use this command below to remove the file to run it again. 
+
+'''bash
+bin/hadoop fs -rm -r -skipTrash /user/root/output/
+'''
+'''
