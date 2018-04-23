@@ -36,7 +36,7 @@ Once we are in the docker container we can start by running our job using the sc
 
 ```bash
 cd $HADOOP_PREFIX
-bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.0.jar wordcount input output
+sudo bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.0.jar wordcount input output
 ```
 
 In order to see the output of our job we run the code below:
