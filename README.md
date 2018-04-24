@@ -14,8 +14,8 @@
 Using this command should install docker on your machine. This is the suggested fastest way to download and install docker
 
 ```bash
-curl -fsSL get.docker.com -o get-docker.sh
-sudo sh get-docker.sh
+sudo curl -fsSL get.docker.com -o get-docker.sh
+sh get-docker.sh
 ```
 
 ## Pull the Hadoop instance <a name="pull_instance"></a>
