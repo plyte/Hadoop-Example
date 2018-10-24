@@ -1,6 +1,6 @@
 # Hadoop Example
 
-### This is ment as a repository to easily and successfully run an example with Hadoop to better understand it. Below there will be some code that you can copy-paste into your terminal. 
+### This is meant as a repository to easily and successfully run an example with Hadoop to better understand it. Below there will be some code that you can copy-paste into your terminal. 
 
 ##### This will run through a couple of steps:
 # Table of Contents
